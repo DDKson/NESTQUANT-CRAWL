@@ -136,7 +136,6 @@ from typing import List
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
-from src.base import Base
 
 class Submission(Base):
     def __init__(self, api_key):
